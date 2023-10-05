@@ -119,7 +119,7 @@ class LaravelPWAServiceProvider extends ServiceProvider
         });
     }
 
-    
+
     /**
      * Register the available commands
      *
@@ -128,9 +128,9 @@ class LaravelPWAServiceProvider extends ServiceProvider
     public function registerCommands()
     {
         $this->commands([
-            \LaravelPWA\Console\Commands\DeployManifest::class,
+            \LaravelPWA\Console\DeployManifest::class,
         ]);
-        
+
     }
 
     /**
